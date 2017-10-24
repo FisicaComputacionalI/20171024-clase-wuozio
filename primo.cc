@@ -5,14 +5,14 @@
 using namespace std;
 int main()
 {
-  int N=12;
-  int flag=0;
-  int divisor=0;
+  long N=12;
+  long flag=0;
+  long divisor=0;
 
   cout<<"inserta un numero "<<endl;
   cin>> N;
 
-  for (int i=2;i<=N/2;i++)
+  for (long i=2;i<=N/2;i++)
     {
       if (N%i==0){
 	flag=1;
